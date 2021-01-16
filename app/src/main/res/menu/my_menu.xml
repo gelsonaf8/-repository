@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/gerarRelatorio"
+        android:title="Gerar PDF dos talões"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/arquivar_todos"
+        android:title="Arquivar todas as ocorrências"
+        app:showAsAction="never"/>
+<item
+    android:id="@+id/delete_all"
+    android:title="Apagar todos os dados"
+    app:showAsAction="never"/>
+</menu>

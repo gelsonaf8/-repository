@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">@color/cardview_dark_background</color>
+    <color name="colorAccent">#29B6F6</color>
+    <color name="colorBotao">#8C9EFF</color>
+</resources>

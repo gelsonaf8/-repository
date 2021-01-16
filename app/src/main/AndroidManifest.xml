@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.CadastroOcorrencias">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app_note"
+        android:label="CADASTRO RSO"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.ViaturaActivity"></activity>
+        <activity
+            android:name=".activity.Carater_Inicial"
+            android:label="LISTA DE CARATER" />
+        <activity
+            android:name=".activity.Cadastrar_Carater"
+            android:label="Cadastrar Carater" />
+        <activity
+            android:name=".activity.GerarPdf"
+            android:label="GERAR PDF" />
+        <activity
+            android:name=".activity.Cadastrar_Viatura"
+            android:label="DADOS DA VIATURA" />
+        <activity
+            android:name=".activity.Viatura_Inicial"
+            android:label="DADOS DA VIATURA" />
+        <activity
+            android:name=".activity.Cadastrar_Equipe"
+            android:label="CADASTRAR EQUIPE" />
+        <activity
+            android:name=".activity.Equipe_Inicial"
+            android:label="EQUIPE" />
+        <activity
+            android:name=".activity.Relatorio_Inicial"
+            android:label="RELATÓRIO" />
+        <activity
+            android:name=".activity.Atualizar_Pessoas_Interresse"
+            android:label="DADOS DA PESSOA" />
+        <activity
+            android:name=".activity.Pessoas_Interresse_Inicial"
+            android:label="ABORDADOS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Cadastrar_Pessoas_Interresse"
+            android:label="CADASTRAR PESSOA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Tela_Inicial"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Cadastrar_Enderecos"
+            android:label="CADASTRO DE ENDEREÇOS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Cadastrar_Ocorrencias"
+            android:label="CADASTRAR OCORRÊNCIAS"
+            android:parentActivityName=".activity.Ocorrencias_Inicial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Ocorrencias_Inicial"
+            android:label="OCORRÊNCIAS" />
+    </application>
+
+</manifest>

@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="#FFFFFF"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/fundo"
+
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="id"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_talao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="T-3652"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="06/07/20"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtArquivada"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Ativo"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="QTR Inicio"
+            android:textColor="#626565"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="QTR Final"
+            android:textColor="#626565"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="KM Inicio"
+            android:textColor="#626565"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="KM Final"
+            android:textColor="#626565"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_Qtr_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="22:45"
+            android:textColor="#626565"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_Qtr_final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=" 23:00"
+            android:textColor="#626565"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_Km_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="300"
+            android:textColor="#626565"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_Km_final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=" 320"
+            android:textColor="#626565"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Endereço "
+            android:textColor="#626565"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="Inocencio Serafico, 3652"
+            android:textColor="#626565"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Natureza "
+            android:textColor="#626565"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_natureza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="C04 Desinteligencia"
+            android:textColor="#626565"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Resultado"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:text="OBS:"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtObs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+    </LinearLayout>-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#cccccc"
+        app:cardElevation="5sp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:background="#E8E6E6"
+                android:gravity="center_horizontal"
+                android:text="LOCAL"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textView10"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/txt_talao" />
+
+            <TextView
+                android:id="@+id/txtQtr1Term"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/txt_Qtr_final"
+                app:layout_constraintStart_toEndOf="@+id/txtQtrLocal"
+                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5sp"
+                android:paddingRight="10dp"
+                android:text="Natureza"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/txt_natureza"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5sp"
+                android:paddingRight="10dp"
+                android:text="Resultado"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/txtResultado"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+            <TextView
+                android:id="@+id/txtData"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:background="@drawable/fundo"
+                android:gravity="center_vertical|end"
+                android:paddingRight="10dp"
+                android:text="20/09/20"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/txtArquivada"
+                app:layout_constraintStart_toEndOf="@+id/txt_talao"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtResultado"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:text="Nada Constatado"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView32"
+                app:layout_constraintTop_toBottomOf="@+id/txt_natureza" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:background="#E8E6E6"
+                android:gravity="center_horizontal"
+                android:text="1 TERM"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textView17"
+                app:layout_constraintStart_toEndOf="@+id/textView9"
+                app:layout_constraintTop_toBottomOf="@+id/txtData" />
+
+            <TextView
+                android:id="@+id/txtArquivada"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:background="@drawable/fundo"
+                android:gravity="center_vertical"
+                android:text="Ativo"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/txt_id"
+                app:layout_constraintStart_toEndOf="@+id/txtData"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtKm1Term"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toStartOf="@+id/txt_Km_final"
+                app:layout_constraintStart_toEndOf="@+id/txtKmLocal"
+                app:layout_constraintTop_toBottomOf="@+id/txtQtr1Term" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5sp"
+                android:paddingRight="10dp"
+                android:text="OBS:"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toStartOf="@+id/txtObs"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+            <TextView
+                android:id="@+id/txt_id"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/fundo"
+                android:gravity="center_vertical|end"
+                android:paddingRight="10dp"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtArquivada"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_talao"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:background="@drawable/fundo"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="T-12546"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/txtData"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:text="Endereço"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView30"
+                app:layout_constraintEnd_toStartOf="@+id/txt_endereco"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/txt_Qtr_final"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="22:50"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtQtr1Term"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:background="#E8E6E6"
+                android:gravity="center_horizontal"
+                android:text="HR"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtCodigo" />
+
+            <TextView
+                android:id="@+id/txt_endereco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:text="Rua Vicentina Carriel Cleto 367"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView28"
+                app:layout_constraintTop_toBottomOf="@+id/txtKm1Term" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#E8E6E6"
+                android:gravity="center_horizontal"
+                android:text="2 TERM"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView10"
+                app:layout_constraintTop_toBottomOf="@+id/txtData" />
+
+            <TextView
+                android:id="@+id/txtCodigo"
+                android:layout_width="36dp"
+                android:layout_height="0dp"
+                android:background="#2196F3"
+                android:gravity="center_horizontal"
+                android:text="C01"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_talao" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#E8E6E6"
+                android:gravity="center_horizontal"
+                android:text="KM"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:background="#E8E6E6"
+                android:gravity="center_horizontal"
+                android:text="IRRAD"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textView9"
+                app:layout_constraintStart_toEndOf="@+id/txtCodigo"
+                app:layout_constraintTop_toBottomOf="@+id/txt_talao" />
+
+            <TextView
+                android:id="@+id/txtObs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:maxLength="30"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView34"
+                app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+            <TextView
+                android:id="@+id/txtKmLocal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toStartOf="@+id/txtKm1Term"
+                app:layout_constraintStart_toEndOf="@+id/txt_Km_inicio"
+                app:layout_constraintTop_toBottomOf="@+id/txtQtrLocal" />
+
+            <TextView
+                android:id="@+id/txtQtrLocal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/txtQtr1Term"
+                app:layout_constraintStart_toEndOf="@+id/txt_Qtr_inicio"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <TextView
+                android:id="@+id/txt_Km_inicio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="235"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toStartOf="@+id/txtKmLocal"
+                app:layout_constraintStart_toEndOf="@+id/textView19"
+                app:layout_constraintTop_toBottomOf="@+id/txt_Qtr_inicio" />
+
+            <TextView
+                android:id="@+id/txt_natureza"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:text="Desinteligência"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView30"
+                app:layout_constraintTop_toBottomOf="@+id/txt_endereco" />
+
+            <TextView
+                android:id="@+id/txt_Qtr_inicio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="22:30"
+                app:layout_constraintEnd_toStartOf="@+id/txtQtrLocal"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/txt_Km_final"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:text="240"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtKm1Term"
+                app:layout_constraintTop_toBottomOf="@+id/txt_Qtr_final" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

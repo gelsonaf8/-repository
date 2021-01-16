@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/caraterLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#596564"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtNumero"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLength="4"
+            android:text="2365"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtLetras"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLength="3"
+            android:text="EPF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtModelo"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Classic"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCor"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLength="3"
+            android:text="CZA"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAno"
+            android:layout_width="15dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLength="2"
+            android:text="97"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtArea"
+            android:layout_width="15dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLength="2"
+            android:text="33"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFR"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:maxLength="3"
+            android:text="A/C"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
