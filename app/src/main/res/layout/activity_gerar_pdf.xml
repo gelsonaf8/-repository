@@ -233,7 +233,7 @@
             android:layout_gravity="center_horizontal|center_vertical"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
-            android:text="05:45"
+            android:text="05:46"
             android:textSize="18sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
